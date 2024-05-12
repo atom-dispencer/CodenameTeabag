@@ -1,9 +1,11 @@
 # Git
 
-To all the Git nerds out there, I'm going to simplify a bit.
-I *do* know how it actually works. Don't shout at me.
+*To all the Git nerds out there, I'm going to simplify a bit.
+I *do* know how it actually works. Don't shout at me.*
 
-Some keywords are marked in **bold**. They are explained in the [Terminology](#Terminology) section.
+This guide will introduce you to the basics of Git - what it is, why you should use it, and how it works.
+There'll be a little bit of technical information, but any key concepts are explained.
+Keywords marked in **bold** are explained in the [Terminology](#Terminology) section.
 
 ## Contents:
 - [What is Git?](#what-is-git)
@@ -58,7 +60,20 @@ Here are a couple words that you'll need to know what to understand the next sec
 All of your code with a folder called **.git**.
 The Git tool manages all the data in **.git**, so you can look at stuff in there, but don't touch it!
 
+A repository can be **local** or **remote** (explained below). This refers only to where the repository is located.
+
 #### Local/Remote
+
+**Local** refers to the machine you are reading this on (or whatever other device you're using Git on!).
+Whenever you make and **commit** changes to your code, that is done in the **local repository**.
+
+**Remote** refers to wherever the 'backup' of your repository is, be that GitHub, BitBucket or some other web service.
+Whenever you want to make a 'backup' of your code or work with teammates, you have to interact with the **remote repository**.
+
+The **remote repository** stores the same information as the **local repository**, it's just in a place where multiple people can access it.
+
+A **local repository** does not have a **remote repository** set up by default and can operate happily without one, but you won't be able to share your code with teammates.
+**Git clients** help you to point Git to a **remote repository** that it can use.
 
 #### Commit
 It's important to understand that Git does *not* save your files themselves, but instead a **delta** of each file.
@@ -88,25 +103,32 @@ How neat!
 ### Commands
 Git is a large and powerful tool, but most people only need a few commands.
 If you're using a GUI, such as in GitHub Desktop, these are all done with just a click!
+- Clone
 - Fetch
 - Commit
 - Push
 - Pull
 
-They sounds scary, but each one just does one small task!
+The names may seem daunting, but you'll find they match up well with the tasks they perform!
+
+#### Clone
+Creates a *new* **local repository** on your computer by copying the **.git** folder from the **remote repository**, then creates all of the repository's code files as well.
+Only used when you interact with a **remote repository** for the first time.
 
 #### Fetch
-Copied the **.git** folder from the **remote repository** onto your computer.
+Updates the **.git** folder in the **local repository** with changes from the **remote repository**.
+Used when you already have a **local** and **remote** repository and you want to sync them.
 
 #### Commit
-Create a **commit** in the **local repository**.
+Create a **commit** in the **local repository**. Used when you have changes that are worth saving.
 
 #### Push
-Take all of the **commits** you've done and send them to the **remote repository**.
+Copy all the new **commits** in the **local repository** to the **remote repository**. Used when you want to share commits with the **remote repository** to do a 'backup' and make them available for teammates.
 
 #### Pull
 Opposite of **push**.
-Copy all of the new **commits** from the **remote** onto your **local repository**.
+Copy all the new **commits** from the **remote** to the **local repository**.
+Used when your teammates have **pushed** changes to the **remote repository** and you want them in your **local repository**.
 
 ---
 *Copyright (C) 2024 Adam Spencer. Licensed under GNU GPL-3.0 and hosted at https://github.com/atom-dispencer/CodenameTeabag. Please refer to the COPYING file distributed in the root of this repository. Git, Git Bash, GitHub, GitHub Desktop and BitBucket are the property of their respective owners, with whom the author is not associated.*
