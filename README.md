@@ -45,6 +45,11 @@ Or, in simpler terms, you tell a computer the steps it needs to do a task.
 However... just as if you were baking a cake, it isn't very helpful if the instructions are in Arabic, but you only speak French. Computers (yes, even ChatGPT under the hood) need humans to talk to them in specific ways.
 
 ### Why learn programming?
+
+Maybe, like me, your job requires it.
+
+Maybe, also like me, you take pleasure in just making things.
+
 ### How do I learn to program?
 Think of another skill you'd like to learn: for me, it's woodwork.
 
