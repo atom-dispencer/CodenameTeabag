@@ -54,13 +54,13 @@ A good client is [GitHub Desktop](https://desktop.github.com/). If you know the 
 ## How to use Git (the basics)
 
 ### Terminology
-Here are a couple words that you'll need to know what to understand the next section.
+Here are a few words that you'll need to know to understand the next section.
 
 #### Repository
 All of your code with a folder called **.git**.
 The Git tool manages all the data in **.git**, so you can look at stuff in there, but don't touch it!
 
-A repository can be **local** or **remote** (explained below). This refers only to where the repository is located.
+A repository can be **local** or **remote** (explained below)
 
 #### Local/Remote
 
@@ -100,6 +100,7 @@ This saves loads of space!
 How neat!
 
 
+---
 ### Commands
 Git is a large and powerful tool, but most people only need a few commands.
 If you're using a GUI, such as in GitHub Desktop, these are all done with just a click!
