@@ -132,4 +132,39 @@ Copy all the new **commits** from the **remote** to the **local repository**.
 Used when your teammates have **pushed** changes to the **remote repository** and you want them in your **local repository**.
 
 ---
+### Branches
+Up to this point, I haven't mentioned one of Git's most powerful features: **branches**.
+
+**Branches** allow one developer, or several teams of developers to work on different parts of the code-base without effecting any other part - if one team temporarily breaks the product, it will not slow down any other team.
+When working alone, **branches** allow a developer to isolate the **commits** while they are working on a new feature, so it's easy to revert them if it all goes pear-shaped.
+
+In Git, each **commit** comes in a chain, which together make up the 'commit history'.
+When you **pull**, you update your **local** commit history with the **remote** commit history.
+
+A branch is *created* **locally**, and then **pushed** to the **remote**.
+At any one time, you can only make changes on one **branch**.
+Switching between **branches** is easy, and is done with the **checkout** or **switch** Git commands - this is built in to all Git clients.
+
+
+#### An example of branches
+
+While you're reading, follow along with this diagram:
+![BranchExample](BranchExample.png)
+
+Alice, Ben and Charlie are part of a team working on a game.
+Alice is responsible for the in-game sounds, and Ben and Charlie are responsible for the in-game visuals.
+Their boss tells Alice that the game is too loud, and Ben and Charlie that all the enemies look too friendly!
+Alice, Ben and Charlie's tasks will each take multiple **commits'** worth of work to fix, and Ben and Charlie need to share changes with each other during development!
+If they push their changes into the main game before they're done, the game will break!
+
+Enter **branches**.
+Each task can be given its own **branch**, which might be called something like `make-sounds-quieter` and `make-enemies-scarier`.
+Now Ben and Charlie can **push** to their branch to share changes *without effecting Alice's branch*.
+
+When the teams are happy with their changes, they can **merge** their changes back into the main **branch** (normally called `main`, `master` or `develop`, it depends).
+Merging appends the **commit history** of one **branch** to another.
+Once `make-sounds-quieter` and `make-enemies-scarier` have been **merged** into `main`, they can be deleted because their **commits** are now safely within `main`.
+
+
+---
 *Copyright (C) 2024 Adam Spencer. Licensed under GNU GPL-3.0 and hosted at https://github.com/atom-dispencer/CodenameTeabag. Please refer to the COPYING file distributed in the root of this repository. Git, Git Bash, GitHub, GitHub Desktop and BitBucket are the property of their respective owners, with whom the author is not associated.*
