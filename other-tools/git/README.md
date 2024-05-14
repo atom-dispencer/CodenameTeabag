@@ -166,5 +166,13 @@ Merging appends the **commit history** of one **branch** to another.
 Once `make-sounds-quieter` and `make-enemies-scarier` have been **merged** into `main`, they can be deleted because their **commits** are now safely within `main`.
 
 
+#### Branches on GitHub
+If you navigate to your repository on GitHub, you can view all of your branches at `Insights > Network`. Here's what it looks like for me as I'm writing this!
+
+![GitHubBranchNetwork](GitHubBranchNetwork.png)
+
+As you can see, I'm writing this 'Branches' section in its own branch, and I'll merge it in when I'm done!
+
+
 ---
 *Copyright (C) 2024 Adam Spencer. Licensed under GNU GPL-3.0 and hosted at https://github.com/atom-dispencer/CodenameTeabag. Please refer to the COPYING file distributed in the root of this repository. Git, Git Bash, GitHub, GitHub Desktop and BitBucket are the property of their respective owners, with whom the author is not associated.*
