@@ -10,7 +10,7 @@
 
 # Codename: Teabag
 
-About five years ago in 2019, I was tasked at school to make a '**T**ext-**B**ased **A**dventure-**G**ame' (TBAG).
+About five years ago in 2019, I was tasked at school to make a '**T**ext-**B**ased **A**dventure-**G**ame' (T-BAG).
 You may have heard of such a thing before - a game where the player controls their character through simple typed commands such as **WALK**  or **FIGHT**.
 Being myself five years ago, I wildly overcomplicated the task and planned multiple expansions which I never started making... though I did ace the test!
 
@@ -22,7 +22,8 @@ Given that I'm not nearly as incompetent as I was in 2019, I think I now have so
 
 ## ✔️ Requirements & FAQs
 
-You don't need any special equipment to use this guide. A computer or lapto with a functioning internet connection is required, but if you're reading this, you've probably got that sorted.
+You don't need any special equipment to use this guide.
+A computer or laptop with a functioning internet connection is required, but if you're reading this, you've probably got that sorted.
 
 - ***Do I need to be able to touch-type?***
   - Nope. If you don't know what touch-typing is, that's fine - it doesn't matter anyway.
@@ -58,6 +59,21 @@ To go and learn (for example) woodwork, I may do some reading, but I'd want to t
 The same goes for programming. You've got to try things out! Have some fun, make some mistakes and learn from them!
 
 ## 📋 How to use this guide
+First, go watch this YouTube Short by *Low Level Learning*. It'll only take a minute:
+
+https://www.youtube.com/shorts/O99NMMk4I4g 
+
+Right, did you watch it? Yes? Good.
+
+This is not a generic tutorial, which is why I call it a guide instead.
+I am going to arm you with the skills you need to "escape tutorial-hell".
+In this *guide*, we will build a **T**ext-**B**ased **A**dventure **G**ame, just like I did back-in-the-day,
+    but I'm also going to show you *how to think for yourself and get help*.
+
+Throughout this *guide*, there will be sections where you have to look things up or use your initiative.
+This may be challenging but I'll guid you through. ***Do not skip these sections.***
+
+You *do* want to escape tutorial-hell... Right?
 
 ## ⏰ Ready to start!?
 If you're already confident navigating GitHub or file-systems, browse to `./lessons/lesson-0.md`.
