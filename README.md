@@ -72,14 +72,18 @@ https://www.youtube.com/shorts/O99NMMk4I4g
 *Right, did you watch it? Yes? Good.*
 
 This is not a generic tutorial, which is why I call it a guide instead.
-I am going to arm you with the skills you need to "escape tutorial-hell" - a terrible place where you spend
-    your time copying from tutorials, never knowing what you're doing, never learning the skills to work
-    on your own.
+I am going to arm you with the skills you need to "escape tutorial-hell" - a state where you spend all
+    your time copying from tutorials without truly learning
+In tutorial-hell, you are unable to write anything original because the tutorials have not taught you to 
+    do more than blindly copy.
 
-In this *guide*, we will build a **T**ext-**B**ased **A**dventure **G**ame, just like I did back-in-the-day,
-    but I'm also going to show you *how to think for yourself and get help*.
-Throughout there will be sections where you have to look things up or use your initiative.
-This may be challenging but I'll guid you through. ***Do not skip these sections.***
+**Copying is not learning. To learn, you must practise.**
+
+*Together* in this *guide*, we will build a **T**ext-**B**ased **A**dventure **G**ame, just like I did 
+    back-in-the-day, but I'm also going to show you how to think for yourself and get help on your own.
+Throughout, there will be sections where you have to look things up or use your initiative.
+This may be challenging but I'll guide you through.
+***Do not skip these sections.***
 
 You *do* want to escape tutorial-hell... Right?
 
