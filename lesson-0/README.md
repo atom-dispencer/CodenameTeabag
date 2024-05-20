@@ -11,7 +11,7 @@
 - [Installing Python](#-installing-python)
   - [Why Python?](#-why-python)
 
-## ⌨️ Typing (Shift vs. Caps Lock)
+## 🔼 Typing (Shift vs. Caps Lock)
 
 Some people don't know that the *Caps Lock* and *Shift* keys on your keyboard do different things:
 
