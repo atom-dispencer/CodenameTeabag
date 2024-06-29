@@ -45,9 +45,6 @@ A computer or laptop with a functioning internet connection is required, but if 
   - Nope. 
   Maths and programming are different skills, but they share some traits, so learning one might 
   make you better at the other.
-- ***Do I need to be able to touch-type?***
-  - Nope. 
-  If you don't know what touch-typing is, that's fine - it doesn't matter anyway.
 - ***Do I need a powerful computer?***
   - Nope. 
   Everything we'll do here can be done on an internet-enabled potato.
@@ -55,6 +52,9 @@ A computer or laptop with a functioning internet connection is required, but if 
   - You can try negotiating, but most goblins aren't very talkative.
   In that case, I recommend a
   [*Wand of Magic Missiles*](https://www.dndbeyond.com/magic-items/4794-wand-of-magic-missiles).
+- ***Do I need to be able to touch-type?***
+  - Nope. 
+  If you don't know what touch-typing is, that's fine - it doesn't matter anyway.
 - ***Does my operating system matter?***
   - Not for what we're doing. 
   If you don't know what an operating system is,
@@ -70,29 +70,47 @@ It may seem like a silly question in a programming tutorial, but it's work askin
 
 > To Program: Provide (a computer or other machine) with coded instructions for the automatic performance of a task. (Oxford Languages)
 
-Or, in simpler terms, you tell a computer the steps it needs to do a task.
+Or, in simpler terms, you tell a computer the steps it needs to do some helpful task.
+    
+Computers are not smart - they're just very fast at executing simple instructions called "machine-code".
+Machine-code can only tell the tell the computer how to move data around inside itself and it's hard 
+    to write because it's all binary (1's and 0's).
+This is why we invented "programming languages" to make our lives easier.
 
-*That's it... However...*
+A "programming language" gives humans an easier way to instruct the computer in its task.
+Together, these instructions form a "program" which can be translated into machine-code that the computer
+    understands.
 
-Just like baking a cake, it's not very helpful if you speak French but the instructions are in Arabic.
-All computers need humans to talk to them in specific ways.
+Think of it like baking a cake: 
+a baker (programmer) writes a recipe (program) so that their friend (the computer) can bake a cake 
+    (perform some useful task).
+If the baker's friend is very [pedantic](https://dictionary.cambridge.org/dictionary/english/pedantic) 
+    (like a computer), they won't know how to follow the recipe if the baker makes a spelling error.
+
+In the same way, computers need the 'recipes' humans write to follow the rules of the programming
+    language that is being used.
 
 ### Why learn programming?
 
-Maybe, like me, your job requires it.
+Maybe you're leaning because you need it for your education or job.
+Perhaps you have some grand project you want to make - the game to end all games?
+Some people just want to try it out. All of these are valid reasons to want to learn.
 
-Maybe, also like me, you take pleasure in just making things.
+I learned because I wanted to 
+    [modify the game *Minecraft*](https://github.com/atom-dispencer/MagiksMostEvile/tree/1.7.10/)
+    (I warn you, my old code is dreadful) but I kept going because it lets me make whatever I want.
+Given some time and commitment I create games, helpful tools for myself, or even a [computer inside
+    a computer](https://github.com/atom-dispencer/iAtomSys).
+
 
 ### How do I learn to program?
-Think of another skill you'd like to learn.
-The piano, perhaps?
+You learn to program the same as any other skill - the piano, perhaps?
 
-To learn an instrument, you'll do some reading and learn some theory, but it's nothing if you don't practise!
-
-The same goes for programming!
-Theory will only take you so far, so you've got to practise and experiement!
-That's why this guide will get you doing some work, not just copying ;).
-So try to make some mistakes, learn from them and (hopefully) enjoy the experience.
+To learn an instrument, you'll do some reading and learn some theory, but practise is key!
+Any musician will tell you that theory can only take you so far, which is this guide will try to make you 
+    work (***"I will not copy-paste... I will not copy-paste..."***).
+If any mistakes come up (and I'll make sure they will 😉), I encourage you to explore and find out 
+    what went wrong so we can learn from and (hopefully) enjoy the experience.
 
 ---
 
