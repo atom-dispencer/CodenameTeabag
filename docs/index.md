@@ -24,9 +24,13 @@ Given that I'm not nearly as incompetent as I was in 2019, I think I now have so
 ---
 
 # Contents
-- Introduction (You are here!)
-- Lessons
-  - [Lesson #0](./lesson-0)
+<ul>
+  {% for post in site.posts %}
+    <li>
+      <a href="{{ post.url }}">{{ post.title }}</a>
+    </li>
+  {% endfor %}
+</ul>
 
 ---
 
@@ -105,6 +109,3 @@ You *do* want to escape tutorial-hell... Right?
 
 ## ⏰ Ready to start!?
 When you're ready to set up your tools, head to [Lesson #0](./lesson-0)!
-
----
-*Copyright (C) 2024 Adam Spencer. Licensed under GNU GPL-3.0 and hosted at https://github.com/atom-dispencer/CodenameTeabag. Please refer to the COPYING file distributed in the root of this repository.*
