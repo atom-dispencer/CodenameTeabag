@@ -1,3 +1,7 @@
+---
+title: Codename: TEABAG
+---
+
 *This is the guide for **Codename: TEABAG**.
 If you are looking for the files to accompany the guide, please visit [https://github.com/atom-dispencer/CodenameTeabag]()*
 
@@ -11,41 +15,44 @@ If you are looking for the files to accompany the guide, please visit [https://g
 >
 > ***No matter! Together, we shall build them...***
 
-About five years ago in 2019, I was tasked at school to make a '**T**ext-**B**ased **A**dventure-**G**ame' (T-BAG).
-You may have heard of such a thing before - a game where the player controls their character through simple typed commands such as **WALK**  or **FIGHT**.
-Being myself five years ago, I wildly overcomplicated the task and planned multiple expansions which I never started making... though I did ace the test!
+In school about five years ago (2019-ish), I was tasked with making a 
+    '**T**ext-**B**ased **A**dventure-**G**ame' (T-BAG).
+You may have heard of such a thing before - a game where the player controls their character 
+    through simple typed commands such as **WALK**  or **FIGHT**.
+Being myself five years ago, I wildly overcomplicated the task and planned multiple expansions
+    which I never even started... though I did ace the test!
 
-Starting my degree, I was surprised at just how many students, even in [STEM](https://www.britannica.com/topic/STEM-education) find computers and programming... mystical - like a monster you only poke with a long stick.
-I found this quite sad: programming had been a major part of my life since my original **Codename: TeaBAG**.
-Given that I'm not nearly as incompetent as I was in 2019, I think I now have something to offer:
+Starting my degree, I was surprised at just how many students, even in
+    [STEM](https://www.britannica.com/topic/STEM-education) find computers and programming...
+    mystical - like a monster you only poke with a long stick.
+I find this quite sad: programming has been a major part of my life since my original **Codename: TeaBAG**.
+Now that I'm not nearly as incompetent as I was in 2019, I think I have something to offer:
 
-*It's time to de-mystify programming.*
-
----
-
-# Contents
-<ul>
-  {% for post in site.posts %}
-    <li>
-      <a href="{{ post.url }}">{{ post.title }}</a>
-    </li>
-  {% endfor %}
-</ul>
+*Let's de-mystify programming.*
 
 ---
 
 ## ✔️ Requirements & FAQs
 
 You don't need any special equipment to use this guide.
-A computer or laptop with a functioning internet connection is required, but if you're reading this, you've probably got that sorted.
+A computer or laptop with a functioning internet connection is required, but if you're reading 
+    this, you've probably got that sorted.
 
 - ***Do I need to be able to touch-type?***
-  - Nope. If you don't know what touch-typing is, that's fine - it doesn't matter anyway.
+  - Nope. 
+  If you don't know what touch-typing is, that's fine - it doesn't matter anyway.
 - ***Do I need a powerful computer?***
-  - Nope. Everything we'll use here can be done on what I would call a potato-laptop.
+  - Nope. 
+  Everything we'll do here can be done on an internet-enabled potato.
 - ***What do I do if I get ambushed by goblins?***
   - You can try negotiating, but most goblins aren't very talkative.
-  In that case, I recommend a *Wand of Magic Missiles*.
+  In that case, I recommend a
+  [*Wand of Magic Missiles*](https://www.dndbeyond.com/magic-items/4794-wand-of-magic-missiles).
+- ***Does my operating system matter?***
+  - Not for what we're doing. 
+  If you don't know what an operating system is,
+  **a**) It doesn't matter anyway,
+  **b**) You're probably on Microsoft Windows.
 
 ---
 
@@ -94,15 +101,19 @@ First, take a minute to watch this YouTube Short:
     allowfullscreen
 ></iframe>
 
-*Did you watch it? Good.*
+*Did you watch it? I'll wait...*
 
-This is not a generic tutorial, which is why I call it a guide instead.
-I am going to arm you with the skills you need to "escape tutorial-hell" - a state where you spend all
-    your time copying from tutorials without truly learning
-In tutorial-hell, you are unable to write anything original because the tutorials have not taught you to 
-    do more than blindly copy.
+Tutorial-hell is where you end up if all you do is blindly copy-paste from tutorials:
+    you never learn or become independent.
+A sure-fire way to get there is by not listening to people who try to help you 🤨... 
+    ***Did you watch that Short??***
 
-**Copying is not learning. To learn, you must practise.**
+This is not a tutorial, it's a *guide* for avoiding or escaping tutorial-hell.
+For that, you need skills which a standard *tutorial* won't teach you, namely how to
+    think-through problems and find help when things go wrong...
+
+Say this after me: ***"I will not copy and paste in Codename: TEABAG"***... Coz it ain't gonna help you.
+If you copy-paste the answer, you won't learn: learning takes practise.
 
 *Together* in this *guide*, we will build a **T**ext-**B**ased **A**dventure **G**ame, just like I did 
     back-in-the-day, but I'm also going to show you how to think for yourself and get help on your own.
