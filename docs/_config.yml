@@ -1,0 +1,8 @@
+remote_theme: pages-themes/midnight@v0.2.0
+plugins:
+- jekyll-remote-theme
+
+show_downloads: true
+
+title: "Codename: TEABAG"
+description: "A friendly guide to escaping tutorial-hell"
