@@ -83,11 +83,18 @@ So try to make some mistakes, learn from them and (hopefully) enjoy the experien
 ---
 
 ## 📋 How to use this guide
-First, go watch this YouTube Short by *Low Level Learning*. It'll only take a minute:
+First, take a minute to watch this YouTube Short:
 
-[https://www.youtube.com/shorts/O99NMMk4I4g]()
+<iframe
+    width="315" height="560"
+    src="https://www.youtube.com/embed/O99NMMk4I4g"
+    title="YouTube video player"
+    frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    allowfullscreen
+></iframe>
 
-*Right, did you watch it? Yes? Good.*
+*Did you watch it? Good.*
 
 This is not a generic tutorial, which is why I call it a guide instead.
 I am going to arm you with the skills you need to "escape tutorial-hell" - a state where you spend all
