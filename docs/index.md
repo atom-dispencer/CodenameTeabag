@@ -15,6 +15,15 @@ If you are looking for the files to accompany the guide, please visit [https://g
 >
 > ***No matter! Together, we shall build them...***
 
+Most programming tutorials are, for want of a better word, *crap*.
+    *[Source: Just Google 'programming tutorial']*
+Either they're way too advanced for beginners, or they start by attempting to justify their existence,
+    show some mediocre code for you to copy-paste, then expect you do divine the purpose of it via séance.
+
+That's why this is not a tutorial.
+
+## 📖 The story so far...
+
 In school about five years ago (2019-ish), I was tasked with making a 
     '**T**ext-**B**ased **A**dventure-**G**ame' (T-BAG).
 You may have heard of such a thing before - a game where the player controls their character 
@@ -23,10 +32,11 @@ Being myself five years ago, I wildly overcomplicated the task and planned multi
     which I never even started... though I did ace the test!
 
 Starting my degree, I was surprised at just how many students, even in
-    [STEM](https://www.britannica.com/topic/STEM-education) find computers and programming...
-    mystical - like a monster you only poke with a long stick.
-I find this quite sad: programming has been a major part of my life since my original **Codename: TeaBAG**.
-Now that I'm not nearly as incompetent as I was in 2019, I think I have something to offer:
+    [STEM](https://www.britannica.com/topic/STEM-education) find computers and programming mystical - like 
+    a monster you only poke with a long stick...
+Five years down the line, I find this quite sad.
+Programming has been a major part of my life since my original **Codename: TeaBAG**, so
+    now that I'm not nearly as incompetent as I was in 2019, I think I have something to offer.
 
 *Let's de-mystify programming.*
 
@@ -68,38 +78,34 @@ A computer or laptop with a functioning internet connection is required, but if 
 ### What is programming?
 It may seem like a silly question in a programming tutorial, but it's work asking!
 
-> To Program: Provide (a computer or other machine) with coded instructions for the automatic performance of a task. (Oxford Languages)
+> To Program: Provide (a computer or other machine) with coded instructions for the automatic 
+> performance of a task. (Oxford Languages)
 
 Or, in simpler terms, you tell a computer the steps it needs to do some helpful task.
     
-Computers are not smart - they're just very fast at executing simple instructions called "machine-code".
-Machine-code can only tell the tell the computer how to move data around inside itself and it's hard 
-    to write because it's all binary (1's and 0's).
-This is why we invented "programming languages" to make our lives easier.
+Computers are not smart - they're just very fast at executing simple instructions called "machine-code",
+Machine-code just tells the computer where to move data from and to inside itself, and it's hard to 
+    write because it's all binary, like so: `010101000100010101000001010000100100000101000111`.
 
-A "programming language" gives humans an easier way to instruct the computer in its task.
-Together, these instructions form a "program" which can be translated into machine-code that the computer
-    understands.
+If that makes any sense to you, you're definitely some kind of demigod and certainly don't need me.
 
-Think of it like baking a cake: 
-a baker (programmer) writes a recipe (program) so that their friend (the computer) can bake a cake 
-    (perform some useful task).
-If the baker's friend is very [pedantic](https://dictionary.cambridge.org/dictionary/english/pedantic) 
-    (like a computer), they won't know how to follow the recipe if the baker makes a spelling error.
+If, on the other hand, you're a normal human being, a "programming language" may be helpful.
+Programming languages give humans an easier way to instruct the computer in its task, and they come in
+    all shapes and sizes.
+Together, these instructions form a "program" which can be translated into the machine-code that the computer
+    so desperately craves.
 
-In the same way, computers need the 'recipes' humans write to follow the rules of the programming
-    language that is being used.
 
 ### Why learn programming?
 
-Maybe you're leaning because you need it for your education or job.
+Maybe you're learning because you need it for your education or job.
 Perhaps you have some grand project you want to make - the game to end all games?
 Some people just want to try it out. All of these are valid reasons to want to learn.
 
 I learned because I wanted to 
     [modify the game *Minecraft*](https://github.com/atom-dispencer/MagiksMostEvile/tree/1.7.10/)
     (I warn you, my old code is dreadful) but I kept going because it lets me make whatever I want.
-Given some time and commitment I create games, helpful tools for myself, or even a [computer inside
+Given some time and commitment I can create games, helpful tools for myself, or even a [computer inside
     a computer](https://github.com/atom-dispencer/iAtomSys).
 
 
@@ -107,8 +113,8 @@ Given some time and commitment I create games, helpful tools for myself, or even
 You learn to program the same as any other skill - the piano, perhaps?
 
 To learn an instrument, you'll do some reading and learn some theory, but practise is key!
-Any musician will tell you that theory can only take you so far, which is this guide will try to make you 
-    work (***"I will not copy-paste... I will not copy-paste..."***).
+Any musician will tell you that "theory can only take you so far", which is why this guide will try to 
+    make you sweat a bit... (***"I will not copy-paste... I will not copy-paste..."***).
 If any mistakes come up (and I'll make sure they will 😉), I encourage you to explore and find out 
     what went wrong so we can learn from and (hopefully) enjoy the experience.
 
