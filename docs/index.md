@@ -15,12 +15,13 @@ If you are looking for the files to accompany the guide, please visit [https://g
 >
 > ***No matter! Together, we shall build them...***
 
-Most programming tutorials are, for want of a better word, *crap*.
-    *[Source: Just Google 'programming tutorial']*
+Most programming tutorials are, for want of a better word, *crap*[^1].
 Either they're way too advanced for beginners, or they start by attempting to justify their existence,
-    show some mediocre code for you to copy-paste, then expect you do divine the purpose of it via séance.
+    show some mediocre code for you to copy-paste, then expect you to divine the purpose of it via séance.
 
 That's why this is not a tutorial.
+
+[^1]: Source: Just Google 'programming tutorial'
 
 ## 📖 The story so far...
 
@@ -57,7 +58,7 @@ A computer or laptop with a functioning internet connection is required, but if 
   make you better at the other.
 - ***Do I need a powerful computer?***
   - Nope. 
-  Everything we'll do here can be done on an internet-enabled potato.
+  Everything we'll do here can be done on an internet-enabled potato[^2].
 - ***What do I do if I get ambushed by goblins?***
   - You can try negotiating, but most goblins aren't very talkative.
   In that case, I recommend a
@@ -70,6 +71,8 @@ A computer or laptop with a functioning internet connection is required, but if 
   If you don't know what an operating system is,
   **a**) It doesn't matter anyway,
   **b**) You're probably on Microsoft Windows.
+
+[^2]: Maris Pipers have the lowest latency.
 
 ---
 
