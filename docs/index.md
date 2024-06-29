@@ -38,6 +38,13 @@ You don't need any special equipment to use this guide.
 A computer or laptop with a functioning internet connection is required, but if you're reading 
     this, you've probably got that sorted.
 
+- ***Do I need to be "smart"?***
+  - Nope - I'll guide you through.
+  Besides, you're smarter than you think 😉.
+- ***Do I need to be good at maths?***
+  - Nope. 
+  Maths and programming are different skills, but they share some traits, so learning one might 
+  make you better at the other.
 - ***Do I need to be able to touch-type?***
   - Nope. 
   If you don't know what touch-typing is, that's fine - it doesn't matter anyway.
