@@ -10,15 +10,14 @@ permalink: /lesson-0/
 # In This Lesson
 - [Typing (Shift vs. Caps Lock)](#-typing-shift-vs-caps-lock)
 - [Installing VSCode](#-installing-vscode)
-  - [Why VSCode?](#-why-vscode)
 - [Installing Python](#-installing-python)
-  - [Why Python?](#-why-python)
 
 # 🔼 Typing (Shift vs. Caps Lock)
 
 Some people don't know that the *Caps Lock* and *Shift* keys on your keyboard do different things:
 
 ![Keyboard](caps-lock.png)
+
 ```
 The 'Caps Lock' key TURNS CAPITALS ON UNTIL YOU press it again.
  Caps-Lock pressed ^             Pressed again ^
@@ -32,6 +31,7 @@ When programming, you'll do a lot of typing.
 I highly recommend teaching yourself to use *Shift* because:
 - You'll need to press it anyway because of symbols like `= + - _ % ^ &`
 - Why would you want to spam *Caps Lock* twice?
+
 ```
 Some people type Single Capital Letters using Caps Lock...
 ^                ^      ^       ^             ^    ^
@@ -42,8 +42,9 @@ Some people type Single Capital Letters using Caps Lock...
                    ^      ^             ^     ^     ^
   Hold Shift while typing the letter.
 ```
+
 There are probably two *Shift* keys on your keyboard (left and right).
-Take a moment to find them - they're probably marked with *Shift* or an *upwards arrow*.
+Take a moment to find them - they're probably marked with *'Shift'* or an *upwards arrow ⬆️*.
 
 Don't use *Caps Lock*. 
 Please just hold *Shift*...
