@@ -3,12 +3,29 @@ title: Lesson 0 - Setting up your workspace
 permalink: /lesson-0/
 ---
 
+And so it begins...
+
+Lessons are numbered 1, 2, 3, etc and are intended to be worked through in ascending order, without
+    skipping any. 
+If you think 'I already know this', don't skip the lesson as there are valuable tips dotted
+    through the text.
+
+Every lesson begins with a set of objectives which will all be completed during the lesson.
+We'll refer back to these at checkpoints throughout the lesson, but feel free to tick them off
+    yourself as we go with the checkboxes provided!
+
+In fact, you can tick the first objective off now!
+
 # ✔️  Objectives
+- To learn the format of lessons in *Codename: TEABAG*
+- To learn about hazards
+- To learn correct typing
 - To install the tools needed for later lessons
 - To learn how to get help
 
 # In This Lesson
 - [Typing (Shift vs. Caps Lock)](#-typing-shift-vs-caps-lock)
+- [Alerts](#-alerts)
 - [Installing VSCode](#-installing-vscode)
 - [Installing Python](#-installing-python)
 
@@ -49,6 +66,26 @@ Take a moment to find them - they're probably marked with *'Shift'* or an *upwar
 Don't use *Caps Lock*. 
 Please just hold *Shift*...
 Please.
+
+# 🚨 Alerts
+
+Throughout each lesson, there will be items that I want to draw your attention to, which I'll
+    do through *alerts*.
+
+| Alert | Purpose | 
+| --------------- | --------------- |
+| ⚒️ Task | To make you work, *mwa ha ha haaa*... |
+| ⚠️ Hazard | To warn you about a potential pitfall! |
+| ⚡Tip | To give helpful advice. |
+| ⏰ Break | To remind you to take breaks. |
+
+In the text, an alert will look a bit like this!
+Be sure to read them, as absorbing their wisdom may save you a lot of pain!
+
+| ⚠️ Hazard ⚠️ |
+| ------------- |
+| Woah, there! Watch where you're going! |
+
 
 # 📺 Installing VSCode
 ## 🤔 Why VSCode?
