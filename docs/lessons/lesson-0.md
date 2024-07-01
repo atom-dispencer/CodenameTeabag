@@ -3,6 +3,8 @@ title: Lesson 0 - Setting up your workspace
 permalink: /lesson-0/
 ---
 
+# Lesson #0
+
 And so it begins...
 
 Lessons are numbered 1, 2, 3, etc and are intended to be worked through in ascending order, without
@@ -16,14 +18,14 @@ We'll refer back to these at checkpoints throughout the lesson, but feel free to
 
 In fact, you can tick the first objective off now!
 
-# ✔️  Objectives
+## ✔️  Objectives
 - To learn the format of lessons in *Codename: TEABAG*
 - To learn about hazards
 - To learn correct typing
 - To install the tools needed for later lessons
 - To learn how to get help
 
-# In This Lesson
+## In This Lesson
 - [Typing (Shift vs. Caps Lock)](#-typing-shift-vs-caps-lock)
 - [Alerts](#-alerts)
 - [Installing VSCode](#-installing-vscode)
@@ -31,7 +33,7 @@ In fact, you can tick the first objective off now!
 
 ---
 
-# 🔼 Typing (Shift vs. Caps Lock)
+## 🔼 Typing (Shift vs. Caps Lock)
 
 Some people don't know that the *Caps Lock* and *Shift* keys on your keyboard do different things:
 
@@ -71,7 +73,7 @@ Please.
 
 ---
 
-# 🚨 Alerts
+## 🚨 Alerts
 
 Throughout each lesson, there will be items that I want to draw your attention to, which I'll
     do through *alerts*.
@@ -92,16 +94,16 @@ Be sure to read them, as absorbing their wisdom may save you a lot of pain!
 
 ---
 
-# 📺 Installing VSCode
-## 🤔 Why VSCode?
-# 🐍 Installing Python
-## 🤔 Why Python?
+## 📺 Installing VSCode
+### 🤔 Why VSCode?
+## 🐍 Installing Python
+### 🤔 Why Python?
 
 
 
 
 
-# What is 'Syntax'
+## What is 'Syntax'
 Like human languages, programming languages have rules which a programmer must follow for the computer to
     be able to 
 
