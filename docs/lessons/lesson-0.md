@@ -29,6 +29,8 @@ In fact, you can tick the first objective off now!
 - [Installing VSCode](#-installing-vscode)
 - [Installing Python](#-installing-python)
 
+---
+
 # 🔼 Typing (Shift vs. Caps Lock)
 
 Some people don't know that the *Caps Lock* and *Shift* keys on your keyboard do different things:
@@ -67,6 +69,8 @@ Don't use *Caps Lock*.
 Please just hold *Shift*...
 Please.
 
+---
+
 # 🚨 Alerts
 
 Throughout each lesson, there will be items that I want to draw your attention to, which I'll
@@ -86,6 +90,7 @@ Be sure to read them, as absorbing their wisdom may save you a lot of pain!
 | ------------- |
 | Woah, there! Watch where you're going! |
 
+---
 
 # 📺 Installing VSCode
 ## 🤔 Why VSCode?
