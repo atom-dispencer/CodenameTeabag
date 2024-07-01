@@ -3,7 +3,7 @@ title: Lesson 0 - Setting up your workspace
 permalink: /lesson-0/
 ---
 
-# Lesson #0
+# Lesson #0 - Setting up your workspace
 
 And so it begins...
 
@@ -94,10 +94,11 @@ Be sure to read them, as absorbing their wisdom may save you a lot of pain!
 
 ---
 
-## 📺 Installing VSCode
-### 🤔 Why VSCode?
 ## 🐍 Installing Python
 ### 🤔 Why Python?
+### The limitations of the IDLE
+## 📺 Installing VSCode
+### 🤔 Why VSCode?
 
 
 
