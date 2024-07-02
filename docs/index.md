@@ -15,9 +15,15 @@ If you are looking for the files to accompany the guide, please visit [https://g
 >
 > ***No matter! Together, we shall build them...***
 
+To all my engineering buddies who 'hate programming', this guide is for you. 😉
+
+As students, we have neither the time nor the energy to devote a year of our lives to a full 
+    [boot.dev](boot.dev) Python course (which I haven't used, but seems decent), so I'm going to 
+    distill as much wisdom as I can into three (*yes, I said '3'*) lessons.
+
 Most programming tutorials are, for want of a better word, *crap*[^1].
-Either they're way too advanced for beginners, or they start by attempting to justify their existence,
-    show some mediocre code for you to copy-paste, then expect you to divine the purpose of it via séance.
+Either they're way too advanced for beginners, or they show some mediocre code for you to copy-paste and 
+    expect you to divine it's purpose via séance.
 
 That's why this is not a tutorial.
 
@@ -26,20 +32,35 @@ That's why this is not a tutorial.
 ## 📖 The story so far...
 
 In school about five years ago (2019-ish), I was tasked with making a 
-    '**T**ext-**B**ased **A**dventure-**G**ame' (T-BAG).
-You may have heard of such a thing before - a game where the player controls their character 
+    '**T**ext-**B**ased **A**dventure-**G**ame' (T-BAG) - a game where the player controls their character 
     through simple typed commands such as **WALK**  or **FIGHT**.
-Being myself five years ago, I wildly overcomplicated the task and planned multiple expansions
-    which I never even started... though I did ace the test!
+Being myself five years ago, I wildly overcomplicated the task and planned multiple expansions which I 
+    never even started making... though I did ace the test! [^2]
 
-Starting my degree, I was surprised at just how many students, even in
-    [STEM](https://www.britannica.com/topic/STEM-education) find computers and programming mystical - like 
-    a monster you only poke with a long stick...
-Five years down the line, I find this quite sad.
-Programming has been a major part of my life since my original **Codename: TeaBAG**, so
-    now that I'm not nearly as incompetent as I was in 2019, I think I have something to offer.
+Later, starting my degree, I was surprised at just how many of my peers in
+    [STEM](https://www.britannica.com/topic/STEM-education) treat programming like a monster you only 
+    poke with a long stick...
 
-*Let's de-mystify programming.*
+So now that I'm slightly less incompetent than I was in 2019, I think I have something to offer, so 
+    let's try to ✨de-mystify✨ programming.
+
+[^2]: It was finding the code for my original TBAG that partly inspired me to write this... I'd link the code repository, but I made it private because it's all unintelligable spaghetti.
+
+---
+
+## What this guide will do
+
+This guide will:
+ - Help you to set up your environment
+ - Teach you that programming isn't scary
+ - Introduce programing fundamentals
+ - Show you how to find help
+ - Warn you of pitfalls and demonstrate best practises
+
+This guide will *not*:
+ - Make you a professional software developer
+ - Tell you about any tools that are not required for the guide
+ - Teach you to brew a [*Draft of Living Death*](https://www.wizardingworld.com/fact-file/plants-and-potions/the-draught-of-living-death)
 
 ---
 
@@ -51,14 +72,14 @@ A computer or laptop with a functioning internet connection is required, but if 
 
 - ***Do I need to be "smart"?***
   - Nope - I'll guide you through.
-  Besides, you're smarter than you think 😉.
+  Besides, you're smarter than you think. 😉
 - ***Do I need to be good at maths?***
   - Nope. 
   Maths and programming are different skills, but they share some traits, so learning one might 
   make you better at the other.
 - ***Do I need a powerful computer?***
   - Nope. 
-  Everything we'll do here can be done on an internet-enabled potato[^2].
+  Everything we'll do here can be done on an internet-enabled potato[^3].
 - ***What do I do if I get ambushed by goblins?***
   - You can try negotiating, but most goblins aren't very talkative.
   In that case, I recommend a
@@ -72,7 +93,7 @@ A computer or laptop with a functioning internet connection is required, but if 
   **a**) It doesn't matter anyway,
   **b**) You're probably on Microsoft Windows.
 
-[^2]: Maris Pipers have the lowest latency.
+[^3]: Maris Pipers have the lowest latency.
 
 ---
 
