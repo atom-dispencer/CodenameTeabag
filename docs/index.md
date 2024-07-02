@@ -18,13 +18,13 @@ If you are looking for the files to accompany the guide, please visit
 
 To all my engineering buddies who 'hate programming', this guide is for you. 😉
 
-As students, we have neither the time nor the energy to devote a year of our lives to a full 
-    [boot.dev](boot.dev) Python course (which I haven't used, but seems decent), so I'm going to 
-    distill as much wisdom as I can into three (*yes, I said '3'*) lessons.
+Most 'introductory' programming tutorials are, for want of a better word, *crap*[^1] - either way too 
+    advanced for beginners, or they expect you to copy-paste their mediocre code and divine its purpose 
+    via séance.
 
-Most programming tutorials are, for want of a better word, *crap*[^1].
-Either they're way too advanced for beginners, or they show some mediocre code for you to copy-paste and 
-    expect you to divine it's purpose via séance.
+As students, we have neither the time nor the energy to devote a year of our lives to a full 
+    [boot.dev](boot.dev) Python course, so I'm going to distill as much wisdom as I can into 
+    three (*yes, I said '3'*) lessons.
 
 That's why this is not a tutorial.
 
@@ -116,21 +116,21 @@ First, take a minute to watch this YouTube Short:
 
 Tutorial-hell is where you end up when you blindly copy-paste from tutorials:
     you never learn or become independent.
-A sure-fire way to get there is by not listening to people who try to help you 🤨... 
+An easy way to get there is by not listening to people who try to help you 🤨... 
     ***Did you watch that Short??***
 
 This is not a tutorial, it's a *guide* for avoiding or escaping tutorial-hell.
 For that, you need skills which a standard *tutorial* won't teach you, namely how to
     think-through problems and find help when things go wrong...
 
-Say this after me: ***"I will not copy and paste in Codename: TEABAG"***... Coz it ain't gonna help you.
-If you copy-paste the answer, you won't learn.
-
 *Together* in this *guide*, we will build a **T**ext-**B**ased **A**dventure **G**ame, just like I did 
     back-in-the-day, but I'm also going to show you how to think for yourself and get help on your own.
 Throughout, there will be sections where you have to look things up or use your initiative.
 This may be challenging but I'll guide you through.
 ***Do not skip these sections.***
+
+Speak after me: ***"I will not copy-paste in Codename: TEABAG"***... Coz it ain't gonna help you.
+If you copy-paste the answer, you won't learn.
 
 You *do* want to escape tutorial-hell... Right?
 
@@ -180,10 +180,10 @@ Given some time and commitment I can create games, helpful tools for myself, or 
 You learn to program the same as any other skill - the piano, perhaps?
 
 To learn an instrument, you'll do some reading and learn some theory, but practise is key!
-Any musician will tell you that "theory can only take you so far", which is why this guide will try to 
-    make you sweat a bit... (***"I will not copy-paste... I will not copy-paste..."***).
-If any mistakes come up (and I'll make sure they will 😉), I encourage you to explore and find out 
-    what went wrong so we can learn from and (hopefully) enjoy the experience.
+Any musician will tell you that "theory can only take you so far", which is why this guide will make you 
+    sweat a little... (***"I will not copy-paste... I will not copy-paste..."***).
+If any mistakes come up (and I'll make sure they will 😉), I encourage you to explore what went wrong so 
+    we can learn from and (hopefully) enjoy the experience.
 
 ---
 
