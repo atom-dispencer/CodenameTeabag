@@ -115,3 +115,7 @@ a baker (programmer) writes a recipe (program) so that their friend (the compute
     (perform some useful task).
 If the baker's friend is very [pedantic](https://dictionary.cambridge.org/dictionary/english/pedantic) 
     (like a computer), they won't know how to follow the recipe if the baker makes a spelling error.
+
+## Big scary errors
+Error messages are there to help you, but sometimes they're not very good at it.
+Either way, always read them because they give you important information!

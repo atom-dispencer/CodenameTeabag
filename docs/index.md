@@ -3,7 +3,8 @@ title: Codename: TEABAG
 ---
 
 *This is the guide for **Codename: TEABAG**.
-If you are looking for the files to accompany the guide, please visit [https://github.com/atom-dispencer/CodenameTeabag]()*
+If you are looking for the files to accompany the guide, please visit 
+    [https://github.com/atom-dispencer/CodenameTeabag](https://github.com/atom-dispencer/CodenameTeabag).*
 
 # Greetings, Adventurer!
 
@@ -113,7 +114,7 @@ First, take a minute to watch this YouTube Short:
 
 *Did you watch it? I'll wait...*
 
-Tutorial-hell is where you end up if all you do is blindly copy-paste from tutorials:
+Tutorial-hell is where you end up when you blindly copy-paste from tutorials:
     you never learn or become independent.
 A sure-fire way to get there is by not listening to people who try to help you 🤨... 
     ***Did you watch that Short??***
@@ -123,7 +124,7 @@ For that, you need skills which a standard *tutorial* won't teach you, namely ho
     think-through problems and find help when things go wrong...
 
 Say this after me: ***"I will not copy and paste in Codename: TEABAG"***... Coz it ain't gonna help you.
-If you copy-paste the answer, you won't learn: learning takes practise.
+If you copy-paste the answer, you won't learn.
 
 *Together* in this *guide*, we will build a **T**ext-**B**ased **A**dventure **G**ame, just like I did 
     back-in-the-day, but I'm also going to show you how to think for yourself and get help on your own.
@@ -145,7 +146,7 @@ It may seem like a silly question in a programming tutorial, but it's work askin
 
 Or, in simpler terms, you tell a computer the steps it needs to do some helpful task.
     
-Computers are not smart - they're just very fast at executing simple instructions called "machine-code",
+Computers are not intelligent - they're just very fast at executing simple instructions called "machine-code",
 Machine-code just tells the computer where to move data from and to inside itself, and it's hard to 
     write because it's all binary, like so:
 
@@ -155,7 +156,7 @@ Machine-code just tells the computer where to move data from and to inside itsel
 
 If that makes any sense to you, you're definitely some kind of demigod and certainly don't need me.
 
-If, on the other hand, you're a normal human being, a "programming language" may be helpful.
+But if you're a normal human being, a "programming language" may be helpful.
 Programming languages give humans an easier way to instruct the computer in its task, and they come in
     all shapes and sizes.
 Together, these instructions form a "program" which can be translated into the machine-code that the computer
