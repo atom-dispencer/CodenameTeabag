@@ -48,22 +48,6 @@ So now that I'm slightly less incompetent than I was in 2019, I think I have som
 
 ---
 
-## What this guide will do
-
-This guide will:
- - Help you to set up your environment
- - Teach you that programming isn't scary
- - Introduce programing fundamentals
- - Show you how to find help
- - Warn you of pitfalls and demonstrate best practises
-
-This guide will *not*:
- - Make you a professional software developer
- - Tell you about any tools that are not required for the guide
- - Teach you to brew a [*Draft of Living Death*](https://www.wizardingworld.com/fact-file/plants-and-potions/the-draught-of-living-death)
-
----
-
 ## ✔️ Requirements & FAQs
 
 You don't need any special equipment to use this guide.
@@ -94,6 +78,60 @@ A computer or laptop with a functioning internet connection is required, but if 
   **b**) You're probably on Microsoft Windows.
 
 [^3]: Maris Pipers have the lowest latency.
+
+---
+
+## 🚀 What this guide will do
+
+This guide will:
+ - Teach you that programming ain't that scary
+ - Show you how to find help
+ - Help you to set up your environment
+ - Introduce some programing fundamentals
+ - Warn you of pitfalls and demonstrate best practises
+
+This guide will *not*:
+ - Take more than 8 hours to finish
+ - Abandon you to tutorial-hell
+ - Make you a professional software developer
+ - Tell you about any tools that are not required for the guide
+ - Teach you to brew a [*Draft of Living Death*](https://www.wizardingworld.com/fact-file/plants-and-potions/the-draught-of-living-death)
+
+---
+
+## 🔥 What is tutorial-hell?
+First, take a minute to watch this YouTube Short:
+
+<iframe
+    width="315" height="560"
+    src="https://www.youtube.com/embed/O99NMMk4I4g"
+    title="YouTube video player"
+    frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    allowfullscreen
+></iframe>
+
+*Did you watch it? I'll wait...*
+
+Tutorial-hell is where you end up if all you do is blindly copy-paste from tutorials:
+    you never learn or become independent.
+A sure-fire way to get there is by not listening to people who try to help you 🤨... 
+    ***Did you watch that Short??***
+
+This is not a tutorial, it's a *guide* for avoiding or escaping tutorial-hell.
+For that, you need skills which a standard *tutorial* won't teach you, namely how to
+    think-through problems and find help when things go wrong...
+
+Say this after me: ***"I will not copy and paste in Codename: TEABAG"***... Coz it ain't gonna help you.
+If you copy-paste the answer, you won't learn: learning takes practise.
+
+*Together* in this *guide*, we will build a **T**ext-**B**ased **A**dventure **G**ame, just like I did 
+    back-in-the-day, but I'm also going to show you how to think for yourself and get help on your own.
+Throughout, there will be sections where you have to look things up or use your initiative.
+This may be challenging but I'll guide you through.
+***Do not skip these sections.***
+
+You *do* want to escape tutorial-hell... Right?
 
 ---
 
@@ -145,42 +183,6 @@ Any musician will tell you that "theory can only take you so far", which is why 
     make you sweat a bit... (***"I will not copy-paste... I will not copy-paste..."***).
 If any mistakes come up (and I'll make sure they will 😉), I encourage you to explore and find out 
     what went wrong so we can learn from and (hopefully) enjoy the experience.
-
----
-
-## 📋 How to use this guide
-First, take a minute to watch this YouTube Short:
-
-<iframe
-    width="315" height="560"
-    src="https://www.youtube.com/embed/O99NMMk4I4g"
-    title="YouTube video player"
-    frameborder="0"
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    allowfullscreen
-></iframe>
-
-*Did you watch it? I'll wait...*
-
-Tutorial-hell is where you end up if all you do is blindly copy-paste from tutorials:
-    you never learn or become independent.
-A sure-fire way to get there is by not listening to people who try to help you 🤨... 
-    ***Did you watch that Short??***
-
-This is not a tutorial, it's a *guide* for avoiding or escaping tutorial-hell.
-For that, you need skills which a standard *tutorial* won't teach you, namely how to
-    think-through problems and find help when things go wrong...
-
-Say this after me: ***"I will not copy and paste in Codename: TEABAG"***... Coz it ain't gonna help you.
-If you copy-paste the answer, you won't learn: learning takes practise.
-
-*Together* in this *guide*, we will build a **T**ext-**B**ased **A**dventure **G**ame, just like I did 
-    back-in-the-day, but I'm also going to show you how to think for yourself and get help on your own.
-Throughout, there will be sections where you have to look things up or use your initiative.
-This may be challenging but I'll guide you through.
-***Do not skip these sections.***
-
-You *do* want to escape tutorial-hell... Right?
 
 ---
 
