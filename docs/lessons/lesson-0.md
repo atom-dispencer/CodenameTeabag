@@ -131,8 +131,7 @@ In this guide, we'll use Python because it's got a friendly syntax for beginners
 | ------------- |
 | Here's your first task! Find the Python programming language website - perhaps try searching *'Python programming language'*|
 
-<details open>
-    <summary>Solution</summary>
+<details>
     The website you want is: https://www.python.org/
 </details>
 
