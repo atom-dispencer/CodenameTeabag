@@ -131,15 +131,9 @@ In this guide, we'll use Python because it's got a friendly syntax for beginners
 | ------------- |
 | Here's your first task! Find the Python programming language website - perhaps try searching *'Python programming language'*|
 
-<details>
+<details open>
     <summary>Solution</summary>
-    
-    *Markdown stuff*
-
-    More markdown stuff
-
-    `Does code work?`
-
+    The website you want is: https://www.python.org/
 </details>
 
 When you get there, you'll find something like this:
