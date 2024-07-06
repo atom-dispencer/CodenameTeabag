@@ -107,10 +107,10 @@ In lessons, when I want to draw your attention to something, I'll use one of the
 
 | Alert | Purpose | 
 | --------------- | --------------- |
-| ⚒️ Task | To make you work, *mwa ha ha haaa*... |
+| ⚒️  Task | To make you work, *mwa ha ha haaa*... |
 | ⚠️ Hazard | To warn you about a potential pitfall! |
 | ⚡Tip | To give helpful advice. |
-| ⏰ Break | To remind you to take breaks. |
+| 🚩 Checkpoint | For when you've completed something cool! |
 
 ...which will look a bit like this:
 
@@ -123,13 +123,31 @@ Be sure to read them, as absorbing their wisdom may save you a lot of pain!
 ---
 
 ## 🐍 Installing Python
-### 🤔 Why Python?
+
+In this guide, we'll use Python because it's got a friendly syntax for beginners and the tools to get started
+    are easy to set up.
+
+| ⚒️  Task ⚒️  |
+| ------------- |
+| Here's your first task! Find the Python programming language website - perhaps try searching *'Python programming language'*|
+
+When you get there, you'll find something like this:
+
+![Python](python_home.png)
+
 ### The limitations of the IDLE
 ## 📺 Installing VSCode
-### 🤔 Why VSCode?
+### Configuring Python
+### Configuring Black
 
 
-
+---
+---
+---
+---
+---
+---
+---
 
 
 ## What is 'Syntax'
