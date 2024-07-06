@@ -129,7 +129,7 @@ In this guide, we'll use Python because it's got a friendly syntax for beginners
 
 | ⚒️  Task ⚒️  |
 | ------------- |
-| Here's your first task! Find the Python programming language website - perhaps try searching *'Python programming language'*|
+| Here's your first task! Find the Python programming language website - perhaps try searching *'Python programming language'* |
 
 <details>
     The website you want is: https://www.python.org/
@@ -137,7 +137,19 @@ In this guide, we'll use Python because it's got a friendly syntax for beginners
 
 When you get there, you'll find something like this:
 
-![Python](python_home.png)
+![Python Homepage](python_home.png)
+
+You'll then need to navigate to the `Downloads` page and download the Python installer.
+The Python webiste is smart and puts the latest version for your operating system at the top of the page:
+
+![Python Downloads](python_downloads.png)
+
+Save the installer and double-click to run it, and you'll be greeted with this window.
+- *Uncheck* `Use admin privileges` unless you know your computer's admin password.
+    This option tells the installer whether or not to install Python for *all* users on your computer.
+- *Check* `Add python.exe to PATH`. This will let us run Python from anywhere on your computer later.
+
+![Python Installer](python_installer.png)
 
 ### The limitations of the IDLE
 ## 📺 Installing VSCode
