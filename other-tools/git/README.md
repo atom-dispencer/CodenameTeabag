@@ -1,7 +1,7 @@
 # Git
 
-*To all the Git nerds out there, I'm going to simplify a bit.
-I *do* know how it actually works. Don't shout at me.*
+*To all the Git nerds out there, I'm going to simplify a bit.*
+*I do know how it actually works. Don't shout at me.*
 
 This guide will introduce you to the basics of Git - what it is, why you should use it, and how it works.
 There'll be a little bit of technical information, but any key concepts are explained.
@@ -15,13 +15,11 @@ Keywords marked in **bold** are explained in the [Terminology](#Terminology) sec
 - [How to use Git (the basics)](#how-to-use-git-the-basics)
 
 ## What is Git?
-Git is a tool for managing and synchronising edits within a codebase.
-
-Git and GitHub are not the same!
+Git is a source control tool for managing and synchronising edits within a codebase.
 
 When you use Git, there are several pieces in play:
-- Git itself *(just a program that runs on a computer)*
-- A Git client *(that lets you interact with Git, for example the Git integration in MATLAB)*
+- Git *(**git.exe** is sitting somewhere on your computer)*
+- A Git client *(a way of talking to Git)*
 - Whoever is hosting your **remote Git repository**
 *(lots of scary words, but that's normally just GitHub)*
 
@@ -29,36 +27,55 @@ Confused? Here's a picture!
 
 ![Git Client Host Architecture](GitClientHost.png)
 
+I bet that didn't help at all...
+
 ## Why does anyone use Git?
 One of the main use cases for Git is when working in a team.
-When programming professionally, you will often work in teams, which means that many developers will be making changes to the same code.
+When programming professionally, you will often work in teams, which means that 
+    many developers will be making changes to the same code.
 
-Before version control tools (Git was not the first!), programmers had to merge changes manually, which takes a long time and is prone to errors.
+Before version control tools (Git was not the first!), programmers had to merge 
+    changes manually, which takes a long time and is prone to errors.
 
 ## Why do I need Git if I'm working alone?
 First, it's practise for later.
-If you aren't used to using a tool now, you won't use it effectively when it's important later!
+If you aren't used to using a tool now, you won't use it effectively when 
+    it's important later!
 
 Second, Git does more than just 'save a copy' of your code.
-It saves *incremental* changes so that you can easily fix problems later: should you encounter a problem, you can easily revert your changes, *regardless of whether you remembered to make a backup*.
+It saves *incremental* changes so that you can easily fix problems later: should 
+    you encounter a problem, you can easily revert your changes, *regardless of 
+    whether you remembered to make a backup*.
 
-## But Git's annoying to use!
+## But Git's annoying!
 Git isn't perfect, but there's a reason it's the industry standard!
 
-If Git is causing major problems, it probably means that you either have an irritating Git *client*, or you're using it wrong.
+If Git is causing major problems, it probably means that you either have an 
+    irritating Git *client*, or you're using it wrong.
 
-The Git integration in, for example, MATLAB is terrible (plus it means you can only use Git in that application) so you should get a different Git client.
+For example, the Git integration in MATLAB is awful, so I use Git Desktop instead.
 
-A good client is [GitHub Desktop](https://desktop.github.com/). If you know the basic Git [Terminology](#Terminology), it's simple to use (just point and click!) and works seamlessly with **repositories** hosted on GitHub.
+A good client is [GitHub Desktop](https://desktop.github.com/).
+If you know the basic Git [Terminology](#Terminology), it's simple to use (just 
+    point and click!) and works seamlessly with **repositories** hosted on GitHub.
 
 ## How to use Git (the basics)
+
+Meet Sam and Cathy. They're going going to help us learn about Git!
+
+![stuff](meet_sam_and_cathy.png)
 
 ### Terminology
 Here are a few words that you'll need to know to understand the next section.
 
 #### Repository
-All of your code with a folder called **.git**.
-The Git tool manages all the data in **.git**, so you can look at stuff in there, but don't touch it!
+All of the history of your code, sitting in a hidden folder called '**.git**'.
+The Git tool manages all the data in **.git**, so you can look at stuff in there, 
+    but don't touch it!
+
+Here is a repository:
+
+![repo](repository.png)
 
 A repository can be **local** or **remote** (explained below)
 
@@ -74,6 +91,8 @@ The **remote repository** stores the same information as the **local repository*
 
 A **local repository** does not have a **remote repository** set up by default and can operate happily without one, but you won't be able to share your code with teammates.
 **Git clients** help you to point Git to a **remote repository** that it can use.
+
+![localremote](local_vs_remote.png)
 
 #### Commit
 It's important to understand that Git does *not* save your files themselves, but instead a **delta** of each file.
