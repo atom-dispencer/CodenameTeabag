@@ -82,7 +82,7 @@ Here is a repository:
 
 ![repo](repository.png)
 
-A repository can be **local** or **remote** (explained below)
+A repository has a series of **commits** and can be **local** or **remote** (explained below).
 
 #### Local/Remote
 
@@ -100,29 +100,24 @@ A **local repository** does not have a **remote repository** set up by default a
 ![localremote](local_vs_remote.png)
 
 #### Commit
-It's important to understand that Git does *not* save your files themselves, but instead a **delta** of each file.
 
-A **commit** is just a collection of **deltas**.
+Commits are the key to Git.
+They're bit like checkpoints in a videogame because they save the current state of your repository.
+Each time you want to save your code, you 'commit' it to your repository.
+Each commit builds on the last commit in its branch.
 
-These **deltas** tell Git how lines in your file have been *edited*. For example:
-```matlab
-a = arduino()
-writeDigitalPin(a, 'D0', 1)
-```
-...now if I want to change `'D0'` to `'D1'`...
-```matlab
-a = arduino()
-writeDigitalPin(a, 'D1', 1)
-```
-The **delta** that Git will store looks something like:
-```matlab
-- writeDigitalPin(a, 'D0', 1)
-+ writeDigitalPin(a, 'D1', 1)
-```
-See that Git has not stored the whole file, just the lines that have been changed!
-This saves loads of space!
-How neat!
+![commit](commit.png)
 
+#### Branch
+
+In a repository, commits are chained together in **branches**.
+Commits on one branch are independent of commits on other branches.
+
+![branches](commit_branches.png)
+
+Branches can be **merged** back together:
+
+![merge](merge.png)
 
 ---
 ### Commands
@@ -130,6 +125,7 @@ Git is a large and powerful tool, but most people only need a few commands.
 If you're using a GUI, such as in GitHub Desktop, these are all done with just a click!
 - Clone
 - Fetch
+- Add
 - Commit
 - Push
 - Pull
@@ -140,15 +136,34 @@ The names may seem daunting, but you'll find they match up well with the tasks t
 Creates a *new* **local repository** on your computer by copying the **.git** folder from the **remote repository**, then creates all of the repository's code files as well.
 Only used when you interact with a **remote repository** for the first time.
 
+For example, to clone the repository for this website:
+```
+git clone https://github.com/atom-dispencer/CodenameTeabag
+```
+
 #### Fetch
 Updates the **.git** folder in the **local repository** with changes from the **remote repository**.
 Used when you already have a **local** and **remote** repository and you want to sync them.
 
+```
+git fetch
+```
+
+#### Add
+```
+git add .
+```
+
 #### Commit
 Create a **commit** in the **local repository**. Used when you have changes that are worth saving.
 
+```
+git commit -m "My message"
+```
+
 #### Push
-Copy all the new **commits** in the **local repository** to the **remote repository**. Used when you want to share commits with the **remote repository** to do a 'backup' and make them available for teammates.
+Copy all the new **commits** in the **local repository** to the **remote repository**.
+Used when you want to share commits with the **remote repository** to do a 'backup' and make them available for teammates.
 
 #### Pull
 Opposite of **push**.
