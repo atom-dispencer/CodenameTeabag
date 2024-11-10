@@ -6,5 +6,5 @@ permalink: /sitemap/
 # Sitemap
 - [Home]({{ site.baseurl }})
 - Python
-  -  [Lesson #0]({{ site.baseurl }}{% link lessons/lesson-0.md %})
--  [Git]({{ site.baseurl }}{% link lessons/other-tools/git.md %})
+  -  [Lesson #0]({{ site.baseurl }}{% link lessons/python/lesson-0 %})
+-  [Git]({{ site.baseurl }}{% link lessons/git/ %})

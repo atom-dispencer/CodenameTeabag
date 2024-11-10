@@ -1,6 +1,6 @@
 ---
 title: Lesson 0 - Setting up your workspace
-permalink: /lesson-0/
+permalink: /python/lesson-0/
 ---
 
 # Lesson #0 - Setting up your workspace

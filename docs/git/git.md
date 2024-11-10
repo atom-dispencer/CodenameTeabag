@@ -1,3 +1,8 @@
+---
+title: Git
+permalink: /git/
+---
+
 # Git
 
 *To all the Git nerds out there, I'm going to simplify a bit.*
