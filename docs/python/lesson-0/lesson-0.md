@@ -129,7 +129,7 @@ In this guide, we'll use Python because it's got a friendly syntax for beginners
 
 | ⚒️  Task ⚒️  |
 | ------------- |
-| Here's your first task! Find the Python programming language website - perhaps try searching *'Python programming language'* |
+| Here's your first task! Find the Python programming language website - perhaps try searching *'Python programming language'*. If you get stuck or want to check your answers, expand the box below. |
 
 <details>
     The website you want is: https://www.python.org/
