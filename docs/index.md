@@ -95,4 +95,4 @@ It's your choice, but it won't help you.
 You don't want to go to tutorial-hell... Do you?
 
 ## ⏰ Ready to start!?
-When you're ready to set up your tools, head to [Lesson #0](./lesson-0)!
+When you're ready to set up your tools, head to [Lesson #0]({{ site.baseurl }}{% link /python/lesson-0 %})!
