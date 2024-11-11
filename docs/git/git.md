@@ -31,11 +31,11 @@ When you use Git, there are several pieces in play:
 - Whoever is hosting your **remote Git repository**
 *(lots of scary words, but that's normally just GitHub)*
 
-Confused? Here's a picture!
+Confused? Here's an unhelpful picture!
 
 ![Git Client Host Architecture](GitClientHost.png)
 
-I bet that didn't help at all...
+That didn't help at all, did it?
 
 ## Why does anyone use Git?
 One of the main use cases for Git is when working in a team.
