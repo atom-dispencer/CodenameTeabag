@@ -58,11 +58,13 @@ Git isn't perfect, but there's a reason it's the industry standard!
 If Git is causing major problems, it probably means that you either have an 
     irritating Git *client*, or you're using it wrong.
 
-For example, the Git integration in MATLAB is awful, so I use Git Desktop instead.
+Many Git clients are terrible, such as the one built into MATLAB.
 
-A good client is [GitHub Desktop](https://desktop.github.com/).
+A good client for starting out is [GitHub Desktop](https://desktop.github.com/).
 If you know the basic Git [Terminology](#Terminology), it's simple to use (just 
     point and click!) and works seamlessly with **repositories** hosted on GitHub.
+To unlock the full power of Git, you might need to use it more directly, such 
+    as through Git Bash.
 
 ## How to use Git (the basics)
 
