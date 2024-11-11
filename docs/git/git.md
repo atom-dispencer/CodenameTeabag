@@ -9,7 +9,10 @@ permalink: /git/
 *I do know how it actually works. Don't shout at me.*
 
 This guide will introduce you to the basics of Git - what it is, why you should use it, and how it works.
-There'll be a little bit of technical information, but any key concepts are explained.
+
+I think it's important to know how your tools work, but if you just want to know how to
+    *use* Git, skip to [How to use Git (the basics)](#how-to-use-git-the-basics).
+
 Keywords marked in **bold** are explained in the [Terminology](#Terminology) section.
 
 ## Contents:
