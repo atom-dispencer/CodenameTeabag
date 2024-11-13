@@ -75,53 +75,54 @@ Meet Sam and Cathy. They're going going to help us learn about Git!
 
 ![stuff](meet_sam_and_cathy.png)
 
-### Terminology
-Here are a few words that you'll need to know to understand the next section.
+### Repositories
 
-#### Repository
-All of the history of your code, sitting in a hidden folder called '**.git**'.
-The Git tool manages all the data in **.git**, so you can look at stuff in there, 
+A repository (or 'repo') is all of the history of your code.
+This all sits in a hidden folder called '**.git**'.
+Git manages everything in **.git**, so you can look at stuff in there, 
     but don't touch it!
 
-Here is a repository:
-
+A repository contains a number of **branches** with **commits** and can be **local** or **remote** (explained below).
+Here's a picture of one:
 ![repo](repository.png)
-
-A repository has a series of **commits** and can be **local** or **remote** (explained below).
 
 #### Local/Remote
 
-**Local** refers to the machine you are reading this on (or whatever other device you're using Git on!).
-Whenever you make and **commit** changes to your code, that is done in the **local repository**.
+These guys refer to *where* something is *physically* happening:
+- **Local** refers to the device you're reading this on (or whatever you use Git on).
+- **Remote** refers to somewhere else outside of your device.
 
-**Remote** refers to wherever the 'backup' of your repository is, be that GitHub, BitBucket or some other web service.
-Whenever you want to make a 'backup' of your code or work with teammates, you have to interact with the **remote repository**.
+A **repository** can be **local** *or* **remote**[^1]:
+- The **repository** you **commit** changes to is your **local repository** because it's on your device.
+- The 'backup' of your repository (e.g. GitHub, BitBucket, etc.) is called the **remote repository** because it's somewhere else in the world.
 
-The **remote repository** stores the same information as the **local repository**, it's just in a place where multiple people can access it.
-
-A **local repository** does not have a **remote repository** set up by default and can operate happily without one, but you won't be able to share your code with teammates.
-**Git clients** help you to point Git to a **remote repository** that it can use.
+[^1]: Technically, a repository can be both, it just depends how you configure the server. The contents of a remote and local repository are identical.
 
 ![localremote](local_vs_remote.png)
 
-#### Commit
+### Making a repository
+
+You can make a shiny new empty repository with one easy terminal command.
+Go to whichever directory you want to make a repo in and type:
+```
+git init
+```
+
+### Commits
 
 Commits are the key to Git.
 They're bit like checkpoints in a videogame because they save the current state of your repository.
 Each time you want to save your code, you 'commit' it to your repository.
-Each commit builds on the last commit in its branch.
-
+Each commit builds on the last commit in its **branch**.
 ![commit](commit.png)
 
-#### Branch
+#### Branches
 
 In a repository, commits are chained together in **branches**.
-Commits on one branch are independent of commits on other branches.
-
+Commits on one branch are independent of commits on other branches:
 ![branches](commit_branches.png)
 
 Branches can be **merged** back together:
-
 ![merge](merge.png)
 
 ---
@@ -216,7 +217,6 @@ If you navigate to your repository on GitHub, you can view all of your branches 
 ![GitHubBranchNetwork](GitHubBranchNetwork.png)
 
 As you can see, I'm writing this 'Branches' section in its own branch, and I'll merge it in when I'm done!
-
 
 ---
 *Copyright (C) 2024 Adam Spencer. Licensed under GNU GPL-3.0 and hosted at https://github.com/atom-dispencer/CodenameTeabag. Please refer to the COPYING file distributed in the root of this repository. Git, Git Bash, GitHub, GitHub Desktop and BitBucket are the property of their respective owners, with whom the author is not associated.*

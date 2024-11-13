@@ -2,6 +2,8 @@
 title: Codename: TEABAG
 ---
 
+*Are you lost? Looking for a specific page? Try the [Sitemap]({{ site.baseurl }}{% link sitemap.md %})!*
+
 *This is the guide for **Codename: TEABAG**.
 If you are looking for the files to accompany the guide, please visit 
     [https://github.com/atom-dispencer/CodenameTeabag](https://github.com/atom-dispencer/CodenameTeabag).*
